@@ -1,0 +1,23 @@
+{
+  "name": "express-swagger",
+  "version": "1.0.0",
+  "description": "Express Swagger",
+  "author": {
+    "name": "Patrick NDAYAMBAJE",
+    "email": "patrickndayambaje4@gmail.com"
+  },
+  "licence": "UNLICENSED",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "start:dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
